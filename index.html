@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DanceBeat Music App</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <h1>DanceBeat</h1>
+    </nav>
+
+    <main role ="main">
+        <div class="keys">
+            <div data-key="65" class="key">
+                <p>A</p>
+                <span class="sound">clap</span>
+            </div>
+            <div data-key="83" class="key">
+                <p>S</p>
+                <span class="sound">hihat</span>
+            </div>
+            <div data-key="68" class="key">
+                <p>D</p>
+                <span class="sound">kick</span>
+            </div>
+            <div data-key="70" class="key">
+                <p>F</p>
+                <span class="sound">bass</span>
+            </div>
+            <div data-key="71" class="key">
+                <p>G</p>
+                <span class="sound">rise</span>
+            </div>
+            <div data-key="72" class="key">
+                <p>H</p>
+                <span class="sound">melody</span>
+            </div>
+            <div data-key="74" class="key">
+                <p>J</p>
+                <span class="sound">synth</span>
+            </div>
+            <div data-key="75" class="key">
+                <p>K</p>
+                <span class="sound">snare</span>
+            </div>
+            <div data-key="76" class="key">
+                <p>L</p>
+                <span class="sound">deep</span>
+            </div>
+        </div>
+    </main>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/bass.wav"></audio>
+  <audio data-key="71" src="sounds/rise.wav"></audio>
+  <audio data-key="72" src="sounds/melody.wav"></audio>
+  <audio data-key="74" src="sounds/synthbass.wav"></audio>
+  <audio data-key="75" src="sounds/snare.wav"></audio>
+  <audio data-key="76" src="sounds/deep.wav"></audio>
+
+<script src="index.js"></script>
+
+</body>
+</html>
